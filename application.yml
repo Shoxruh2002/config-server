@@ -6,3 +6,11 @@ eureka:
       defaultZone: http://localhost:8089/eureka/
   instance:
     hostname: localhost
+
+microservice:
+  user:
+    endpoints:
+      endpoint: http://USER-SERVICE/user/
+  department:
+    endpoints:
+      endpoint: http://DEPARTMENT-SERVICE/department/
