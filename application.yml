@@ -10,7 +10,7 @@ eureka:
 microservice:
   user:
     endpoints:
-      endpoint: http://USER-SERVICE/user/
+      endpoint: http://USER-MS/api/user/
   department:
     endpoints:
-      endpoint: http://DEPARTMENT-SERVICE/department/
+      endpoint: http://FLAT-MS/api/flat/
